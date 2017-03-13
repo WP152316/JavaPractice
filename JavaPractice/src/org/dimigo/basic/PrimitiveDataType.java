@@ -9,7 +9,7 @@ package org.dimigo.basic;
  *   |_ PrimitiveDataType.java
  * 
  * 1. 개요 : 
- * 2. 작성일 : 2017. 3. 10.
+ * 2. 작성일 : 2017. 3. 9.
  * </pre>
  *
  * @author : zip_s
@@ -22,7 +22,7 @@ public class PrimitiveDataType {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		
 	}
 
 }
