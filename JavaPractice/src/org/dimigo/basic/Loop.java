@@ -34,7 +34,7 @@ public class Loop {
 			System.out.println("2. 공격력 감소");
 			System.out.println("3. 캐릭터 설정");
 			System.out.println("9. 종료");
-			System.out.println("----------------");
+			System.out.println("----------------"); 
 			System.out.printf("메뉴 입력 => ");
 			ch = sc.nextInt();
 			switch (ch) {
