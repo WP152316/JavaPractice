@@ -48,7 +48,7 @@ public class Loop {
 				break;
 			case 3:
 				System.out.println(ca[new Random().nextInt(ca.length)] + "(으)로 설정되었습니다."); // 마법사, 영주, 기사, 농민
-				break;
+				break; 
 			case 9:
 				System.out.println("이제 공부하세요!");
 				break;
@@ -59,3 +59,4 @@ public class Loop {
 	}
 
 }
+//캡슐화, 상속, 다향성
