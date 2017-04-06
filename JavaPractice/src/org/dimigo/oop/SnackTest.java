@@ -31,7 +31,7 @@ public class SnackTest {
 			System.out.println("개수 : " + s.getNumber() + "개");
 			System.out.println("");
 			hap +=s.getPrice()*s.getNumber();
-		}
+		} 
 		System.out.println("총 구매 금액 : " + String.format("%,d",hap) + "원");
 	}
 
