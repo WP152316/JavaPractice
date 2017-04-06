@@ -34,5 +34,5 @@ public class SnackTest {
 		} 
 		System.out.println("총 구매 금액 : " + String.format("%,d",hap) + "원");
 	}
-
+ 
 }
