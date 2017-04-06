@@ -43,7 +43,7 @@ public class Question {
 		for(int i = 0;i< 3; i++){
 			StringBuilder sb = new StringBuilder("가장 좋아하는");
 			
-			sb.append(q[i])append(an[i]).append("입니다");
+			sb.append(q[i]).append(an[i]).append("입니다");
 			System.out.println(sb);
 		}
 	}
