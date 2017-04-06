@@ -20,10 +20,11 @@ public class Snack {
 	private String company;
 	private int price;
 	private int number;
-	
-	public Snack(){
-		
+
+	public Snack() {
+
 	}
+
 	/**
 	 * @param name
 	 * @param company
@@ -69,18 +70,19 @@ public class Snack {
 	public void setNumber(int number) {
 		this.number = number;
 	}
-	
-	public int calcPrice(){
-		return this.price*this.number;
+
+	public int calcPrice() {
+		return this.price * this.number;
 	}
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see java.lang.Object#toString()
 	 */
 	@Override
 	public String toString() {
 		return "Snack [name=" + name + ", company=" + company + ", price=" + price + ", number=" + number + "]";
 	}
-	
 
 }
